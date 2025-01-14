@@ -1,4 +1,4 @@
-package com.mansur_university.CheckStockBot;
+package com.auth.authExample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,15 +1,14 @@
-package com.mansur_university.CheckStockBot.Database.Models;
+package com.auth.authExample.Database.Models;
 
+import com.auth.authExample.Https.Enums.Roles;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
-import org.springframework.context.support.BeanDefinitionDsl;
 import org.springframework.security.core.CredentialsContainer;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import javax.management.relation.Role;
 import java.util.Collection;
 import java.util.List;
 
@@ -40,10 +39,10 @@ public class User implements UserDetails, CredentialsContainer {
     private String email;
 
     @Column(nullable = false)
-    private boolean isDeleted;
+    private Roles role;
 
-    @Enumerated(EnumType.STRING)
-    private Role role;
+    @Column(nullable = false)
+    private boolean isDeleted;
 
     @Override
     public void eraseCredentials() {

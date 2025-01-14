@@ -1,6 +1,6 @@
-package com.mansur_university.CheckStockBot.Database.Repositories;
+package com.auth.authExample.Database.Repositories;
 
-import com.mansur_university.CheckStockBot.Database.Models.User;
+import com.auth.authExample.Database.Models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

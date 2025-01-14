@@ -1,8 +1,6 @@
-package com.mansur_university.CheckStockBot.Https.Controllers;
+package com.auth.authExample.Https.Controllers;
 
-import com.mansur_university.CheckStockBot.Database.Models.User;
-import com.mansur_university.CheckStockBot.Https.Responses.BasicResponse;
-import org.springframework.http.HttpStatus;
+import com.auth.authExample.Https.Responses.BasicResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

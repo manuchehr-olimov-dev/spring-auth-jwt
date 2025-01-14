@@ -1,4 +1,4 @@
-package com.mansur_university.CheckStockBot;
+package com.auth.authExample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
