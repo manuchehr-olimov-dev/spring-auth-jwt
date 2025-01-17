@@ -56,11 +56,11 @@ public class User implements UserDetails, CredentialsContainer {
 
     @Override
     public String getPassword() {
-        return "";
+        return password;
     }
 
     @Override
     public String getUsername() {
-        return "";
+        return email;
     }
 }
